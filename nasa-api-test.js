@@ -33,8 +33,6 @@ fetchData("image").then(data => {
     })
 })
 
-
-
 fetchData("video").then(data => {
     const items = data.collection.items;
     items.forEach(item => {
